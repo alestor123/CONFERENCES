@@ -22,4 +22,4 @@ tap.test('Output test', async t => {
     // Object.keys(element).filter(val => !dataRules.boolean.includes(val)).forEach(key => t.equal(typeof element[key] === 'string', true))
     // dataRules.boolean.forEach(keyword => console.log(typeof element[keyword] === 'boolean' ? undefined : typeof element[keyword]))
   })
-  })
+})
