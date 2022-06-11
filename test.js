@@ -22,13 +22,4 @@ tap.test('Output test', async t => {
     // Object.keys(element).filter(val => !dataRules.boolean.includes(val)).forEach(key => t.equal(typeof element[key] === 'string', true))
     // dataRules.boolean.forEach(keyword => console.log(typeof element[keyword] === 'boolean' ? undefined : typeof element[keyword]))
   })
-  //
-  //          t.equal(typeof main.time === 'string' && main.time.length > 0, true)
-  //    })
-  //   t.equal(typeof main.author === 'string' && main.author.length > 0, true)
-  //   t.equal(typeof main.latest === 'object' && main.latest.length === 2, true)
-  //   t.equal(typeof main.chapters === 'object' && main.chapters.length > tstdata.num, true)
-  //   t.equal((await isReachable(main.url)), true)
-  //   t.equal((await isReachable(main.coverImg)), true)
-  // write test for chapters
-})
+  })
