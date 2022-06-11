@@ -1,6 +1,6 @@
 {
   "name": "conferences",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a simple code for fetching developer events for the year",
   "main": "App.js",
   "funding": "https://alestor123.is-a.dev/donate",
