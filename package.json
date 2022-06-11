@@ -1,0 +1,54 @@
+{
+  "name": "conferences",
+  "version": "1.0.0",
+  "description": "This is a simple code for fetching developer events for the year",
+  "main": "App.js",
+  "funding": "https://alestor123.is-a.dev/donate",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "standard && node test.js | tap-spec",
+    "example": "node run.js",
+    "lint": "standard . --fix"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "App.js",
+    "cli.js",
+    "opt.js",
+    "assets/man/help.man"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "node",
+    "nodejs",
+    "terminal",
+    "term",
+    "tool"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alestor123/CONFERENCES.git"
+  },
+  "author": "Alestor Aldous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alestor123/CONFERENCES/issues"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3",
+    "tap": "^15.0.9",
+    "tap-spec": "^5.0.0"
+  },
+  "homepage": "https://github.com/alestor123/CONFERENCES#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^4.1.0",
+    "figlet": "^1.5.0",
+    "minimist": "^1.2.6",
+    "prompt-checkbox": "^2.2.0",
+    "table": "^6.8.0"
+  }
+}
