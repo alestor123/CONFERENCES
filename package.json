@@ -26,7 +26,13 @@
     "nodejs",
     "terminal",
     "term",
-    "tool"
+    "tool",
+    "conferences",
+    "developer",
+    "conventions",
+    "convention",
+    "confs.tech",
+    "events"
   ],
   "repository": {
     "type": "git",
