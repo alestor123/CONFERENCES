@@ -1,5 +1,5 @@
 
-        Usage: avoid-shame <input file or directory paths>
+        Usage: conferences
   
 
 Arguments : 
